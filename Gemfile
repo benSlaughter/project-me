@@ -2,8 +2,13 @@ source "https://rubygems.org"
 
 ruby "3.2.2"
 
+gem "primer_view_components"
+gem "view_component"
+gem "pry"
+gem "dartsass-rails"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.1.1"
+gem "rails", "~> 7.1"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"

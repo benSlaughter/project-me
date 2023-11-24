@@ -1,0 +1,18 @@
+current directory: /workspaces/project-me/vendor/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/usr/local/rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /workspaces/project-me/vendor/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231019-115994-dqupts sitelibdir\=./.gem.20231019-115994-dqupts clean
+
+current directory: /workspaces/project-me/vendor/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231019-115994-dqupts sitelibdir\=./.gem.20231019-115994-dqupts
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /workspaces/project-me/vendor/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231019-115994-dqupts sitelibdir\=./.gem.20231019-115994-dqupts install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20231019-115994-dqupts/bootsnap
+
+current directory: /workspaces/project-me/vendor/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231019-115994-dqupts sitelibdir\=./.gem.20231019-115994-dqupts clean

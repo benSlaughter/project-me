@@ -1,0 +1,16 @@
+anchored-position[popover] {
+  border-width: 0;
+  padding: 0;
+  position: absolute;
+  min-width: 192px;
+  overflow: visible;
+  background: none;
+}
+
+.Overlay {
+  display: flex;
+}
+
+anchored-position.not-anchored::backdrop {
+  background-color: var(--overlay-backdrop-bgColor, var(--color-neutral-muted));
+}

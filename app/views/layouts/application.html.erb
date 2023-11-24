@@ -6,11 +6,26 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%= stylesheet_link_tag("primer_view_components") %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
+    <%= javascript_include_tag("primer_view_components") %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <%= yield %>
+    <section class="main main-container">
+    <section class="main-header">
+      Header
+    </section>
+    <section class="main-side">
+    </section>
+    <section class="main-content">
+      <%= render(StickersComponent.new) %>
+      <%= yield %>
+    </section>
+    <section class="main-side">
+    </section>
+  </section>
   </body>
 </html>

@@ -1,0 +1,9 @@
+{
+  "name": "alpha/overlay",
+  "selectors": [
+    "anchored-position[popover]",
+    ".Overlay",
+    "anchored-position.not-anchored::-webkit-backdrop",
+    "anchored-position.not-anchored::backdrop"
+  ]
+}

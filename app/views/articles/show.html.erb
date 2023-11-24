@@ -1,0 +1,10 @@
+<h1><%= @article.title %></h1>
+
+<% if @article.photo.attached? %>
+  <%= content_tag(:div, class: "article-img-container") do %>
+    <%= image_tag(url_for(@article.photo), alt: "Article photo", class: "article-img") %>
+  <% end %>
+<% end %>
+
+<p><%= @article.body %></p>
+

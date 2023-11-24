@@ -1,0 +1,30 @@
+.sticker-grid-container {
+  padding: 25px;
+  max-height: 230px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, 25%);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  margin-bottom: 75px;
+}
+
+img.sticker {
+  position: relative;
+  max-width: 175px;
+  max-height: 175px;
+  transform-origin: center;
+  transform: translateX(var(--x-position)) rotate(var(--rotate));
+  margin:0 -100%;
+}
+
+.sticker-grid-item {
+  text-align: center;
+}
+
+.sticker-grid-narrow {
+  grid-row: span 1;
+}
+
+.sticker-grid-wide {
+  grid-row: span 2;
+}
